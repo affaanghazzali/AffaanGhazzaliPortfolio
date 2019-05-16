@@ -1,0 +1,308 @@
+/* navbar */
+.navbar {
+    background: #999999 !important;
+}
+.navbar .navbar-brand {
+    color: #FFF;
+    font-family: futura;
+}
+.navbar .navbar-brand:hover {
+    color: #FFF;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+    font-family: futura;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #999999;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* Portfolio Page */
+.background {
+    background-color: #999999;
+}
+.intro-container {
+    background-color: #FFF;
+    width: 95%;
+    height: 300px;
+    border-radius: 6px;
+    margin: auto;
+    align-items: center;
+}
+.h1-text {
+    text-align: center;
+    line-height: 120px;
+    font-family: futura;
+    font-size: 5rem;
+}
+.h2-text {
+    text-align: center;
+    line-height: 80px;
+    font-family: futura;
+    font-size: 2rem; 
+}
+.resume-button {
+    background-color: #ff0000;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 0 auto;
+    font-family: futura;
+    font-weight: 400;
+    border: none;
+    border-radius: 70px;
+}
+.resume-button-text {
+    color: #FFF;
+    text-transform: uppercase;
+}
+.card-container{
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display : flex;
+    justify-content : space-between;
+}
+.left-card {
+    background-color: #FFF;
+    width: 30%;
+    height: 200px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.h1-left-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+.h2-left-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1rem; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.center-card {
+    background-color: #FFF;
+    width: 30%;
+    height: 200px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.h1-center-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+.h2-center-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1rem; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.right-card {
+    background-color: #FFF;
+    width: 30%;
+    height: 200px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.h1-right-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+.h2-right-card {
+    text-align: center;
+    font-family: futura;
+    font-size: 1rem; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* My Resume */
+.resume-intro {
+    background-color: #FFF;
+    width: 95%;
+    height: 150px;
+    border-radius: 6px;
+    margin: auto;
+    align-items: center;
+}
+.h1-resume-intro {
+    text-align: center;
+    line-height: 145px;
+    font-family: futura;
+    font-size: 3.7rem;
+}
+.resume-card-container {
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    display : flex;
+    justify-content : space-between;
+}
+.resume-download-card {
+    background-color: #FFF;
+    width: 49%;
+    height: 400px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.resume-download-card-h1 {
+    text-align: center;
+    font-family: futura;
+    font-size: 2rem;
+    line-height: 40px;
+}
+.resume-download-card-h2 {
+    text-align: center;
+    font-family: futura;
+    font-size: 1rem; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resume-sum-up-card {
+    background-color: #FFF;
+    width: 49%;
+    height: 400px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.resume-sum-up-card-h1 {
+    text-align: center;
+    font-family: futura;
+    font-size: 2rem;
+    line-height: 40px;
+}
+.resume-sum-up-card-h-elements {
+    text-align: left;
+    font-family: futura;
+    font-size: 0.9rem; 
+    width: 90%;
+    margin-left: 2%;
+    margin-right: auto;
+}
+.resume-sum-up-card-p-elements {
+    text-align: left;
+    font-family: futura;
+    font-size: 0.7rem; 
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 10px;
+}
+
+/* About Me */
+.about-me-container {
+    width: 95%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display : flex;
+    justify-content : space-between;
+}
+.about-me-text {
+    background-color: #FFF;
+    width: 49%;
+    height: 600px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.about-me-h1 {
+    text-align: center;
+    font-family: futura;
+    font-size: 4rem;
+    line-height: 80px;
+}
+.about-me-h2 {
+    text-align: center;
+    font-family: futura;
+    font-size: 1rem;
+    line-height: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about-me-pic {
+    width: 50%;
+    display: block;
+    margin-left: 30%;
+    position: relative;
+    border-radius: 50%;
+}
+
+/* Contact me */
+.contact-me-container {
+    width: 95%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display : flex;
+    justify-content : space-between;
+}
+.contact-me-links {
+    background-color: #FFF;
+    width: 49%;
+    height: 600px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;   
+}
+.contact-me-forum {
+    background-color: #FFF;
+    width: 49%;
+    height: 600px;
+    border-radius: 6px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.contact-me-h1 {
+    text-align: center;
+    font-family: futura;
+    font-size: 3rem;
+    line-height: 80px;
+}
+contact-me-h-elements {
+    text-align: center;
+    font-family: futura;
+    font-size: 0.9rem; 
+    width: 90%;
+    margin: auto;
+}
+.contact-me-forum-h1 {
+    text-align: center;
+    font-family: futura;
+    font-size: 3rem;
+    line-height: 80px;
+}
